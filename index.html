@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Federated Systems for Distributed Intelligence</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f8fb;
+      color: #1f2937;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #243b6b, #3f5f9f);
+      color: white;
+      padding: 70px 20px 60px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 auto 16px;
+      max-width: 900px;
+      font-size: 2.6rem;
+      line-height: 1.2;
+    }
+
+    header p {
+      margin: 0 auto;
+      max-width: 760px;
+      font-size: 1.15rem;
+      opacity: 0.95;
+    }
+
+    .info-bar {
+      background: white;
+      border-bottom: 1px solid #d8dee9;
+      padding: 18px 20px;
+    }
+
+    .info-grid {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      text-align: center;
+    }
+
+    .info-item strong {
+      display: block;
+      color: #243b6b;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 4px;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 44px 20px 60px;
+    }
+
+    section {
+      margin-bottom: 44px;
+    }
+
+    h2 {
+      color: #243b6b;
+      font-size: 1.7rem;
+      margin-bottom: 16px;
+    }
+
+    .card {
+      background: white;
+      border: 1px solid #d8dee9;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(31, 41, 55, 0.06);
+    }
+
+    .lead {
+      font-size: 1.05rem;
+      color: #5f6b7a;
+    }
+
+    .speakers {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+    }
+
+    .speaker-card {
+      background: white;
+      border: 1px solid #d8dee9;
+      border-radius: 14px;
+      padding: 20px;
+    }
+
+    .speaker-card h3 {
+      margin: 0 0 6px;
+      color: #243b6b;
+      font-size: 1.1rem;
+    }
+
+    .speaker-card p {
+      margin: 0;
+      color: #5f6b7a;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid #d8dee9;
+    }
+
+    th, td {
+      padding: 16px;
+      text-align: left;
+      border-bottom: 1px solid #d8dee9;
+      vertical-align: top;
+    }
+
+    th {
+      background: #e8eefc;
+      color: #243b6b;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .note {
+      margin-top: 14px;
+      color: #5f6b7a;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 28px 20px;
+      color: #5f6b7a;
+      border-top: 1px solid #d8dee9;
+      background: white;
+    }
+
+    @media (max-width: 760px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .info-grid,
+      .speakers {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Federated Systems for Distributed Intelligence</h1>
+    <p>
+      Seminar programme on knowledge discovery and analysis across distributed data sources.
+    </p>
+  </header>
+
+  <div class="info-bar">
+    <div class="info-grid">
+      <div class="info-item">
+        <strong>Date</strong>
+        10 June 2026
+      </div>
+      <div class="info-item">
+        <strong>Time</strong>
+        12:00–17:00
+      </div>
+      <div class="info-item">
+        <strong>Location</strong>
+        Maastricht University
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section>
+      <h2>About the seminar</h2>
+      <div class="card">
+        <p class="lead">
+          Many important datasets are distributed across institutions, organisations, or systems, and cannot easily be shared due to privacy, ownership, regulatory, or practical constraints.
+        </p>
+        <p>
+          This seminar focuses on federated systems as a way to enable collaboration, knowledge discovery, and distributed intelligence without requiring full data centralization. The programme brings together invited speakers working on different aspects of federated and privacy-aware data systems.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Invited speakers</h2>
+      <div class="speakers">
+        <div class="speaker-card">
+          <h3>Prof. [Speaker Name]</h3>
+          <p>[Affiliation]</p>
+        </div>
+
+        <div class="speaker-card">
+          <h3>Prof. [Speaker Name]</h3>
+          <p>[Affiliation]</p>
+        </div>
+
+        <div class="speaker-card">
+          <h3>Dr. [Speaker Name]</h3>
+          <p>[Affiliation]</p>
+        </div>
+
+        <div class="speaker-card">
+          <h3>Additional speaker to be confirmed</h3>
+          <p>Details will be updated soon</p>
+        </div>
+      </div>
+
+      <p class="note">
+        Detailed talk titles will be added once confirmed.
+      </p>
+    </section>
+
+    <section>
+      <h2>Programme</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Session</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td><strong>12:00–13:00</strong></td>
+            <td>Lunch and informal networking</td>
+          </tr>
+
+          <tr>
+            <td><strong>13:00–14:00</strong></td>
+            <td>
+              Invited talk 1<br>
+              <span class="note">45-minute talk followed by 15 minutes of discussion</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>14:00–15:00</strong></td>
+            <td>
+              Invited talk 2<br>
+              <span class="note">45-minute talk followed by 15 minutes of discussion</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>15:00–16:00</strong></td>
+            <td>
+              Invited talk 3<br>
+              <span class="note">45-minute talk followed by 15 minutes of discussion</span>
+            </td>
+          </tr>
+
+          <tr>
+            <td><strong>16:00–17:00</strong></td>
+            <td>
+              Invited talk 4 / discussion session<br>
+              <span class="note">Details to be confirmed</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Programme information</h2>
+      <div class="card">
+        <p>
+          This page provides the programme information for the seminar. Speaker details, talk titles, and room information will be updated once confirmed.
+        </p>
+        <p>
+          For programme-related questions, please contact <strong>Afsana Khan</strong>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    Federated Systems for Distributed Intelligence · Maastricht University · 10 June 2026
+  </footer>
+</body>
+</html>
